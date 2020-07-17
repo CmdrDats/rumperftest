@@ -8,7 +8,7 @@ You'll need `npm` installed - then run `npm install` on the project. `shadow-clj
 
 # Usage
 
-## Rum 1.11.5
+## Rum 0.11.5
 
 Run `shadow-cljs -d "rum:0.11.5" watch main` on the command line, and browse to `localhost:8000`.
 
@@ -22,7 +22,7 @@ Zoom out view:
 Zoom in view:
 ![zoomin-0.11.5](resources/screenshots/rum-0.11.5-zoomin.png)
 
-## Rum 1.12.3
+## Rum 0.12.3
 
 Run `shadow-cljs -d "rum:0.12.3" watch main` on the command line, and browse to `localhost:8000`.
 
