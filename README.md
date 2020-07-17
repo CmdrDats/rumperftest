@@ -36,6 +36,6 @@ Zoom out view:
 Zoom in view:
 ![zoomin-0.12.3](resources/screenshots/rum-0.12.3-zoomin.png)
 
-#Conclusion
+# Conclusion
 
 It seems that Rum 0.12.3 regressed in terms of asynchronous rendering, insisting on fully finishing up rendering update _before_ processing the next key event. This holds up the actual document rendering so that the input doesn't update until every keypress is processed which inflates the perceived performance regression even further.
