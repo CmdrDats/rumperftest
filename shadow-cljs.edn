@@ -1,0 +1,23 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dev-http {8000 "resources/public"}
+
+ :builds
+ {:main
+  {:target :browser
+   :output-dir "resources/public/apps"
+   :asset-path "/apps"
+   :devtools {:watch-dir "resources/public"}
+   :compiler-options
+   {:infer-externs :auto}
+   :js-options {:js-provide :shadow}
+
+   :modules
+   {:cljs-base
+    {:goog-base true}
+
+    :main
+    {:entries [perftest]
+     :depends-on #{:cljs-base}}}}}}
