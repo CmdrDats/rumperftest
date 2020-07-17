@@ -1,14 +1,14 @@
-#Motivation
+# Motivation
 
 This project simply highlights a performance regression between Rum 0.11.5 and 0.12.3
 
-#Prerequisites
+# Prerequisites
 
 You'll need `npm` installed - then run `npm install` on the project. `shadow-cljs` needs to work on the command line. See https://shadow-cljs.github.io/docs/UsersGuide.html#_installation if that doesn't work.
 
-#Usage
+# Usage
 
-##Rum 1.11.5
+## Rum 1.11.5
 
 Run `shadow-cljs -d "rum:0.11.5" watch main` on the command line, and browse to `localhost:8000`.
 
@@ -22,7 +22,7 @@ Zoom out view:
 Zoom in view:
 ![zoomin-0.11.5](resources/screenshots/rum-0.11.5-zoomin.png)
 
-##Rum 1.12.3
+## Rum 1.12.3
 
 Run `shadow-cljs -d "rum:0.12.3" watch main` on the command line, and browse to `localhost:8000`.
 
